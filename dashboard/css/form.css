@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.form-dashboard h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0px 0px 40px 0px;
+  padding-top: 60px;
+}
+hr {
+  width: 530px;
+  text-align: center;
+  margin: auto;
+  background-color: #1a4650;
+}
+
+#shape-left {
+  margin-top: 460px;
+}
+input {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 300px;
+  height: 60px;
+  border-style: none;
+  margin: 30px 0px 30px 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a4650;
+}
+input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a4650;
+  padding: 0.6em 1.4em 0.5em 1.2em;
+}
+
+#iphones {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 250px;
+  height: 60px;
+  border-style: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a4650;
+  padding: 0.6em 1.4em 0.5em 1.2em;
+}
+.first-row input {
+  width: 530px;
+}
+
+.second-row input {
+  width: 250px;
+  margin-right: 23px;
+}
+.third-row input {
+  width: 179px;
+}
+#address {
+  width: 325px;
+  margin: 0px 13px 0px 0px;
+}
+.fourth-row {
+  margin: 0px 0px 30px 0px;
+}
+.fourth-row input {
+  width: 160px;
+  margin: 0px 8px 0px 6px;
+}
+.fifth-row {
+  display: inline-flex;
+}
+.fifth-row button {
+  width: 214px;
+  height: 185px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border-style: none;
+  margin: 30px 12px 30px 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a4650;
+}
+.first-row {
+  margin: 0px 0px -30px 0px;
+}
+#sub-btn {
+  width: 180px;
+  background: linear-gradient(90deg, #def463 0%, #c6de41 100%), #c6de41;
+  margin: 40px 30px 50px 30px;
+  box-shadow: none;
+  color: #000000;
+}
+.btn-container a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4a4a4a;
+  padding: 0px 60px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 30px 30px 30px 30px;
+}

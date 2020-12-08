@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav>
+        <div class="nav-container">
+            <div class="img-container-nav">
+                <img src="https://i.postimg.cc/66vssgY9/main-logo-white-dashboard.png" alt="">
+            </div>
+            <div class="btn-container-nav">
+                <ul class="dash-nav-btns">
+                    <!--help btn -->
+                    <li><a>Help</a></li>
+                    <!--log out btn-->
+                    <li><a href="" id="logout-btn">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- screw background-->
+    <div class="screw-container">
+        <img src="https://i.postimg.cc/Dz19JYYr/main-screw.png" alt="">
+    </div>
+    <!--shapes in background-->
+    <div class="right-shape-container">
+        <svg id="shape-right" width="269" height="277" viewBox="0 0 269 277" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M269 0V220L0.178589 276.255L269 0Z" fill="url(#paint4_linear)" />
+            <defs>
+                <linearGradient id="paint4_linear" x1="134.589" y1="0" x2="134.589" y2="276.255"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1A4650" />
+                    <stop offset="0.484375" stop-color="#235966" />
+                    <stop offset="1" stop-color="#2D6E7E" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    <svg id="shape-left" class="dash-shape-left"  width="199" height="126" viewBox="0 0 199 126" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0.75V125.5L198.5 84.5L0 0.75Z" fill="url(#paint3_linear)" />
+        <defs>
+            <linearGradient id="paint3_linear" x1="142" y1="-125" x2="142" y2="167" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1A4650" />
+                <stop offset="0.484375" stop-color="#235966" />
+                <stop offset="1" stop-color="#2D6E7E" />
+            </linearGradient>
+        </defs>
+    </svg>
+    <div class="main-shape-container">
+        <svg class="dash-main-shape-2" width="100%" height="100%" viewBox="0 0 1440 980" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 265.851L1440 0V980H0V265.851Z" fill="url(#paint0_linear)" />
+            <defs>
+                <linearGradient id="paint0_linear" x1="720" y1="0" x2="720" y2="980" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#CCDF64" />
+                    <stop offset="0.510417" stop-color="#BFD44A" />
+                    <stop offset="1" stop-color="#B3CA32" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    <!--Account description-->
+    <div class="title-container">
+        <h1>My account</h1>
+        <p>Manage your repairs, shipping and schedule.</p>
+    </div>
+    <!--This is the dashboard-->
+    <div class="dashboard-container">
+        <div class="dashboard">
+        <form class="form-dashboard" action="">
+            <h2>New repair ticket</h2>
+            <hr/>
+            <div class="first-row">
+                <!--Full name input-->
+                <input type="text" placeholder="Full name">
+            </div>
+            <div class="second-row">
+                <!--Phone number input-->
+                <input type="text" placeholder="Phone number">
+                <!--Dropdown option for iphone model (confirm options)-->
+                <select id="iphones" name="iphone">
+                    <option value="">Iphone model</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <hr/>
+            <div class="third-row">
+                <!--Address input-->
+                <input id="address" type="text" placeholder="Address">
+                <!--Apartment input-->
+                <input type="text" placeholder="Apt">
+            </div>
+            <div class="fourth-row">
+                <!--City input-->
+                <input type="text" placeholder="City">
+                <!--State input-->
+                <input type="text" placeholder="State">
+                <!--zipcide input-->
+                <input type="text" placeholder="Zip">
+            </div>
+            <hr/>
+            <div class="fifth-row">
+                <!--upload image (front part of phone) -->
+                <button  onclick="document.getElementById('getFile').click()">Front part of your <br>phone</button>
+                <input type='file' id="getFile" style="display:none">
+                <!--upload image (back part of phone) -->
+                <button  onclick="document.getElementById('getFile').click()">Back part of your <br>phone</button>
+                <input type='file' id="getFile" style="display:none">
+            </div>
+            <hr/>
+            <div class="btn-container">
+                <!--2ND BTN / CANCEL REPAIR-->
+                <a href="">Cancel</a>
+                <!--SUBMIT FORM / MAIN CTA BTN / SUBMIT FROM INFO-->
+                <input id="sub-btn" type="submit" value="Repair now">
+            </div>
+        </form>
+        </div>
+    </div>
+    <script src="./js/animation.js"></script>
+</body>
+
+</html>

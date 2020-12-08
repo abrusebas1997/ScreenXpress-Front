@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#regForm {
+  margin-top: 200px;
+  text-align: center;
+}
+#regForm h1 {
+  font-family: Inter;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+#regForm h5 {
+  margin-top: 66px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+}
+.forgot-container a {
+  margin-left: 220px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: #1a4650;
+}
+.sign-in-form input {
+  background: #f5f5f5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border-style: none;
+  width: 360px;
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 30px;
+  color: #1a4650;
+}
+.btn-container a {
+  background: linear-gradient(90deg, #def463 0%, #c6de41 100%), #c6de41;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 18px 146px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+}
+.btn-container {
+  margin-top: 60px;
+}
+.btn-container-forgot,
+.btn-container-forgot-success {
+  margin-top: 60px;
+}
+.btn-container-forgot a {
+  padding: 18px 98px;
+  background: linear-gradient(90deg, #def463 0%, #c6de41 100%), #c6de41;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+}
+
+.account-container a {
+  text-decoration: none;
+  color: #1a4650;
+}
+.success-text P {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 500;
+  color: #1a4650;
+}
+.success-container {
+  margin-top: 240px;
+}
+.btn-container-forgot-success a {
+  padding: 18px 98px;
+  background: linear-gradient(90deg, #def463 0%, #c6de41 100%), #c6de41;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+}
+.btn-container-restore {
+  margin-top: 40px;
+}
+.btn-container-restore a {
+  padding: 18px 89px;
+  background: linear-gradient(90deg, #def463 0%, #c6de41 100%), #c6de41;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+}
+.agree-container {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  display: inline-flex;
+  align-items: center;
+}
+.agree-container a {
+  text-decoration: none;
+  color: #1a4650;
+}
+#check-box {
+  margin-right: 10px;
+}
